@@ -1,0 +1,131 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #2dcee0, #ff00e6)
+}
+
+/* Heading */
+h1 {
+    font-family: "Abril Fatface", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px; 
+    color: #0f0d0d;
+    text-shadow: 2px 2px 4px rgb(249, 245, 245);
+    padding: 20px;
+    background: linear-gradient(45deg, #ff00e6, #2dcee0);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Paragraphs */
+p {
+    margin: 15px 0;
+    line-height: 1.6;
+    font-family: "Concert One", sans-serif;
+    text-align: center;
+}
+
+.list {
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    max-width: 80%;
+    margin: 0 auto 20px;
+    background: linear-gradient(90deg, #0606f9, #ff0000);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 140, 0);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.intro {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(45deg, #ff05b4, #eeff00);
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgb(0, 255, 17); 
+    max-width: 80%; 
+    margin: 0 auto 20px; 
+    text-shadow: 2px 2px 4px rgb(84, 62, 62);
+}
+
+/* List */
+ul {
+    margin: 20px auto; 
+    max-width: 30%; 
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Concert One", sans-serif; 
+    font-size: 20px; 
+    line-height: 1.5; 
+    color: #000000; 
+    background: linear-gradient(90deg, #002aff, #11ff00);
+    border-radius: 100%; 
+    padding: 10px;
+    box-shadow: 0 2px 4px rgb(0, 255, 38); 
+    text-shadow: 2px 2px 4px rgb(253, 249, 249);
+}
+
+
+/* Style for list items on hover */
+li:hover {
+    cursor: pointer;
+    color: #eeff00; 
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+/* Link */
+a {
+    color: #2200ff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ChatBot */
+#cai-webchat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+#logo {
+    width: 15%; 
+    height: auto;
+    border: 1px solid #31304e;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    box-shadow: 0px 3px 15px #ff0202f4;
+}
+
+/* Apply transition for smooth expansion */
+#logo {
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Apply scale transformation on hover */
+#logo:hover {
+    transform: scale(1.6);
+}
