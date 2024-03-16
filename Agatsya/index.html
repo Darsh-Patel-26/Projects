@@ -1,0 +1,205 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Agatsya ChatBot
+        </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+            /* Body */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background: linear-gradient(45deg, #0d757f, #820c57);
+            }
+
+
+            /* Heading */
+            h1 {
+                font-family: "Abril Fatface", sans-serif;
+                text-align: center;
+                margin-top: 50px;
+                font-size: 36px; 
+                color: #0f0d0d;
+                text-shadow: 2px 2px 4px rgb(249, 245, 245);
+                padding: 20px;
+                background: linear-gradient(45deg, #ff00e6, #2dcee0);
+                border-radius: 10px;
+                box-shadow: 10px 10px 10px rgb(47, 255, 0);
+            }
+
+            h1:hover {
+                box-shadow: 0 0 10px rgb(0, 34, 255);
+            }
+
+
+            /* Paragraphs */
+            p {
+                margin: 15px 0;
+                line-height: 1.6;
+                font-family: "Concert One", sans-serif;
+                text-align: center;
+            }
+
+            .list {
+                font-size: 20px;
+                color: aliceblue;
+                text-align: center;
+                padding: 10px;
+                max-width: 80%;
+                margin: 0 auto 20px;
+                background: linear-gradient(90deg, #0606f9, #ff0000);
+                border-radius: 10px;
+                box-shadow: 10px 10px 10px rgb(255, 0, 0);
+                text-shadow: 2px 2px 4px rgb(0, 0, 0);
+            }
+
+            .list:hover {
+                box-shadow: 0 0 10px rgb(47, 0, 255);
+            }
+
+            .intro {
+                font-size: 20px;
+                text-align: center;
+                padding: 10px;
+                background: linear-gradient(45deg, #05fff3, #ff00a2);
+                border-radius: 10px; 
+                box-shadow: 10px 10px 10px rgb(25, 0, 255);
+                max-width: 80%; 
+                margin: 0 auto 20px; 
+                text-shadow: 2px 2px 4px rgb(255, 255, 255);
+            }
+
+            .intro:hover {
+                box-shadow: 0 0 10px rgb(255, 0, 0);
+            }
+
+            /* List */
+            .web {
+                margin: 20px auto; 
+                max-width: 30%; 
+                padding: 0;
+                list-style: none;
+            }
+
+            .webl {
+                margin-bottom: 10px;
+                text-align: center;
+                font-family: "Concert One", sans-serif; 
+                font-size: 20px; 
+                line-height: 1.5; 
+                color: #000000; 
+                background: linear-gradient(90deg, #002aff, #11ff00);
+                border-radius: 100%; 
+                padding: 10px;
+                box-shadow: 10px 10px 10px rgb(255, 0, 115); 
+                text-shadow: 2px 2px 4px rgb(253, 249, 249);
+            }
+
+
+            /* Style for list items on hover */
+            .webl:hover {
+                cursor: pointer;
+                color: #eeff00; 
+                text-shadow: 2px 2px 4px rgb(0, 0, 0);
+                box-shadow: 0 0 10px rgb(0, 255, 255); 
+            }
+
+            /* Link */
+            #tele {
+                color: #2200ff;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #tele:hover {
+                text-decoration: underline;
+            }
+
+            /* ChatBot */
+            #cai-webchat {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+            }
+
+            .container {
+                text-align: center;
+            }
+
+            #logo {
+                width: 15%; 
+                height: auto;
+                border: none;
+                border-radius: 50%;
+                margin-bottom: 40px;
+                margin-top: 40px;
+            }
+
+            /* Apply transition for smooth expansion */
+            #logo {
+                transition: transform 0.5s ease-in-out;
+            }
+
+            /* Apply scale transformation on hover */
+            #logo:hover {
+                transform: scale(1.3);
+                box-shadow: 1px -1px 15px #ff0202f4;
+            }
+
+            @media only screen and (max-width: 768px) {
+                h1 {
+                    font-size: 28px;
+                }
+                .list,
+                .intro,
+                .webl {
+                    font-size: 18px;
+                }
+                #logo {
+                    width: 30%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Welcome to our Agatsya ChatBot
+        </h1>
+
+        <div class = "container">
+            <img src="Agatsya Logo.jpg" id="logo">
+        </div>
+
+        <p class="intro">Welcome to Agatsya, your dedicated hostel assistant powered by SAP Conversational Bot technology.</br>Agatsya is here to provide you with seamless assistance and support for all your hostel-related queries and needs.</p>
+
+        <p class = "list">Here's how Agatsya can help:</p>
+
+        <ul class = "web">
+        <li class = "webl">Understand hostel rules and regulations</li>
+        <li class = "webl">Guide you through the admission process</li>
+        <li class = "webl">Provide information about the mess menu</li>
+        <li class = "webl">Offer insights into the neighborhood</li>
+        <li class = "webl">Assist with transportation options</li>
+        <li class = "webl">Provide details about hostel facilities</li>
+        <li class = "webl">Connect you with hostel staff contacts</li>
+        </ul>
+
+        <p class="intro">Powered by SAP Conversational Bot technology, Agatsya is available 24/7 to ensure that your hostel experience is as smooth and enjoyable as possible.
+        Say hello to Agatsya and unlock a world of effortless hostel living!</p>
+
+        <p class="intro">You can also chat with our Chat Bot on this Website by clicking on 'Click on me' button.</p>
+
+        <p class="intro">Our Bot is also available on Telegram follow up this link to chat : <a id = "tele" href="http://t.me/agatsya01_bot">http://t.me/agatsya01_bot</a></p>
+
+        <script
+        src="https://cdn.cai.tools.sap/webchat/webchat.js"
+        channelId="51e85bb3-175c-4d23-b6e2-33684df03d5e"
+        token="f3520b44dcd8c36aa6eb236abb4a85a7"
+        id="cai-webchat">
+        </script>
+    </body>
+</html>
